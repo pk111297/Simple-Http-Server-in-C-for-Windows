@@ -7,6 +7,7 @@ Now you have to run the server by the following command:
 ```bash
 gcc server.c -o server.exe -l ws2_32
 ```
+Now ws2_32 is basically the library which is needed for compiling and executing the code of sockets in windows and since our HTTP server consists of sockets and so we need to include that library.
 
 Now there will be some warnings but ignore them.
 
